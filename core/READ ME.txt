@@ -1,0 +1,55 @@
+How to use?
+
+Include in your php in the head these scripts using the <script> tags:
+	- jquery.js
+	- DatabaseController.js
+
+At the top of your page add these lines of code:
+
+<?php
+	// this must be on the top of very page
+	define('__ROOT__', dirname(__FILE__)); 
+	require_once(__ROOT__.'/Database/DatabasePageValidation.php');
+	DatabaseValidation::initValidation();
+	echo "<script>sessionStorage.setItem('key', '".DatabaseValidation::getEncryptionKey()."');</script>";
+?>
+
+To call a function add the function to DatabaseGlobalFunctions.php in the class GlobalFunctions.
+The function has to be public static.
+Now you can call the function from javascript typing this line of code:
+
+Database.callFunction({targetFunction:"functionName"});
+
+(Note that targetFunction has to be always called)
+
+Example code index.php:
+
+<?php
+	// this must be on the top of very page
+	define('__ROOT__', dirname(__FILE__)); 
+	require_once(__ROOT__.'/Database/DatabasePageValidation.php');
+	DatabaseValidation::initValidation();
+	echo "<script>sessionStorage.setItem('key', '".DatabaseValidation::getEncryptionKey()."');</script>";
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voorbeeld</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="Database/DatabaseController.js"></script>
+</head>
+<body>
+	<script>
+		$(function(){
+			Database.callFunction({targetFunction:"testFunction"});
+		});
+	</script>
+</body>
+</html>
+
+Database.callFunction parameters:
+
+- async (default true)
+- targetFunction
+- 

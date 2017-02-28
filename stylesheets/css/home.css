@@ -1,0 +1,142 @@
+.containerText
+{
+    position:relative;
+    z-index:1;
+}
+
+.imageText
+{
+    text-align: start;
+    word-wrap: break-word;
+    margin:0px;
+    width: auto;
+    font-size:60px;
+    font-weight: 200;
+    color:white;
+    z-index:1;
+}
+
+.containerButton
+{
+    margin:auto !important;
+}
+
+.sliderIcon
+{
+    display:block;
+    margin:auto !important;
+}
+
+.imageButton
+{
+    display:block;
+    margin:auto;
+    background:none !important;
+    box-shadow: none !important;
+
+}
+
+.slider-image
+{
+    margin:0px;
+    padding:0px;
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+    position: relative;
+}
+
+.overlay
+{
+    position: absolute;
+    left:0px;
+    top:0px;
+    background-color: rgba(0,0,0,0.2);
+    width:100%;
+    height:100%;
+}
+
+.slider
+{
+    height:700px;
+}
+
+.margin-none
+ {
+    margin:0px !important;
+ }
+
+.padding-none
+{
+    padding:0px !important;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #0277BD !important;
+    margin-right: 20px;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+.card .card-action a:hover {
+    color: #0277BD !important;
+}
+
+.headline-text
+{
+    text-align: center;
+    font-weight: 100;
+}
+
+.headline
+{
+    margin-bottom: 30px;
+    color: #CCCCCC;
+    opacity:0.4;
+}
+
+.headline-infotext
+{
+    text-align: center;
+    opacity:0.7;
+}
+
+.cursus-cards
+{
+    margin:auto;
+}
+
+.holder
+{
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.card-image-height
+{
+    height: 432px;
+}
+
+.carousel-image-height
+{
+    height:200px;
+}
+
+.accommodatie-head-text
+{
+    font-weight:bold;
+}
+.sliderIcon 
+{
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(90deg);
+    font-size: 3rem !important;
+}
+.imageText{
+    text-align: center;
+    padding-top: 300px;
+}

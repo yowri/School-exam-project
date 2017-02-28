@@ -1,0 +1,31 @@
+.subscribe-new-success{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  padding: 0px;
+}
+.success-text{
+  margin:0;
+  color:#fff;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(1,1,1,0.5);
+  position: relative;
+}
+
+.success-container{
+  background-image: url('../../images/FrontImages/zeilFoto2.jpg');
+  margin-bottom: 0px;
+}
+footer{
+  margin-top: 0px !important;
+}
+#content{
+  margin-bottom: 0px !important;
+}

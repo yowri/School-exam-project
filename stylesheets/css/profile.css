@@ -1,0 +1,81 @@
+.profile-nav{
+  margin-top: 60px;
+  padding: 40px 0px;
+  border: 1px solid #DEDEDE;
+  border-radius: 7px;
+}
+.profile-nav li{
+  margin-bottom: 10px;
+}
+.profile-nav span{
+  padding:0 15px;
+}
+.profile-titel{
+  margin:0px;
+  margin-top:60px;
+}
+.active-category{
+  font-weight: bold;
+  border-bottom: 2px solid #0277BD;
+}
+.profile-nav li:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+.floatRight{
+  float: right;
+}
+h4{
+  font-size: 1.5rem;
+  color: #A2A2A2;
+}
+.counter{
+    color: #0277BD;
+    font-weight: bolder;
+    font-size: 42px;
+}
+.counter-table{
+  table-layout: fixed;
+}
+.counter-table td{
+  text-align: center;
+  width: 33%;
+}
+.counter-text td{
+    color: #0277BD;
+    font-weight: bold;
+    font-size: 18px;
+}
+.order-table{
+  box-shadow: 3px 3px 9px #888888;
+}
+.td-wrapper{
+  padding:15px 70px;
+  padding-bottom: 40px;
+}
+input[type=checkbox]:checked+.lever:after{
+  background-color: #F1F1F1 !important;
+}
+.switch label input[type=checkbox]:checked+.lever{
+  background-color: #0277BD !important;
+}
+.switch{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #0277BD;
+  box-shadow: 0 1px 0 0 #0277BD;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+  color:black;
+}
+.switch label .lever{
+  background-color: #0277BD;
+}
+.get-pdf{
+  cursor: pointer;
+}
+h4.login-txt{
+  margin-top: 38px;
+}

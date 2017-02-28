@@ -1,0 +1,257 @@
+body{
+	background-color: #EEEEEE;
+}
+
+.base-color
+{
+    background-color:#0277BD !important;
+}
+.color-base
+{
+    color:#0277BD !important;
+}
+
+.marginAuto{
+	margin:auto!important;
+}
+
+.passwordRecoverd{
+	display: none;
+}
+
+.baseBorderColor{
+	border-color: #0277BD;
+}
+
+.color-accent
+{
+    color:#E91E63 !important;
+}
+
+.baseContainer{
+	margin-top: 5%;
+}
+
+.sideMargin{
+	margin-left:16px;
+	margin-right: 16px;
+}
+
+.sidePadding{
+	padding-left:16px !important;
+	padding-right:16px !important;
+}
+
+.baseLogin{
+	
+}
+
+.baseRegister{
+	
+}
+
+.LoginVlak{
+	height: auto;
+	padding: 0px !important;
+  background-color: transparent;
+  margin-right: 20px !important;
+}
+.textCenter{
+	text-align: center;
+}
+
+.loginHead{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	height:100px;
+}
+
+.registerHead{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	height:100px;
+  margin-left: 20px;
+}
+
+.colorBlack{
+	color:gray;
+}
+.welkomText{
+	padding:16px;
+	color:black;
+	padding-top: 54px;
+	margin:0px;
+}
+
+.noPadding{
+	padding:0px !important;
+}
+
+.inputArea{
+	padding: 16px;
+}
+
+.floatRight{
+	float:right;
+}
+
+.marginTop{
+	margin-top:16px;
+}
+.marginBottom{
+	margin-bottom:16px;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #0277BD;
+    box-shadow: 0 1px 0 0 #0277BD;
+}
+
+.active{
+	color:#9E9E9E !important;
+}
+
+.forgotPassword{
+	display: none;
+}
+
+.forgotPasswordVlak{
+	width: 100%;
+	height:auto;
+	background-color: white;
+}
+
+
+
+/*CSS van profilepage*/
+
+
+
+
+.profile-nav{
+  margin-top: 60px;
+  padding: 40px 0px;
+  border: 1px solid #DEDEDE;
+  border-radius: 7px;
+}
+.profile-nav li{
+  margin-bottom: 10px;
+}
+.profile-nav span{
+  padding:0 15px;
+}
+.profile-titel{
+  margin:0px;
+  margin-top:60px;
+}
+.active-category{
+  font-weight: bold;
+  border-bottom: 2px solid #0277BD;
+}
+.profile-nav li:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+.floatRight{
+  float: right;
+}
+h4{
+  font-size: 1.5rem;
+  color: #A2A2A2;
+}
+.counter{
+    color: #0277BD;
+    font-weight: bolder;
+    font-size: 42px;
+}
+.counter-table{
+  table-layout: fixed;
+}
+.counter-table td{
+  text-align: center;
+  width: 33%;
+}
+.counter-text td{
+    color: #0277BD;
+    font-weight: bold;
+    font-size: 18px;
+}
+.order-table{
+  box-shadow: 3px 3px 9px #888888;
+}
+.td-wrapper{
+  padding:15px 70px;
+  padding-bottom: 40px;
+}
+input[type=checkbox]:checked+.lever:after{
+  background-color: #F1F1F1 !important;
+}
+.switch label input[type=checkbox]:checked+.lever{
+  background-color: #0277BD !important;
+}
+.switch{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #0277BD;
+  box-shadow: 0 1px 0 0 #0277BD;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+  color:black;
+}
+.switch label .lever{
+  background-color: #0277BD;
+}
+
+footer.page-footer {
+  margin-top:0px;
+}
+.subscribe-card{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 3px 3px 9px #484848;
+}
+.loginContainer{
+  background-image: url('../../images/FrontImages/zeilFoto2.jpg');
+  margin-bottom: 0px;
+  padding:50px 0;
+}
+#content{
+  margin-bottom: 0px;
+}
+.subscribe_user{
+  padding:0px 20px !important;
+
+}
+.welkomText{
+  text-transform: uppercase;
+  padding-left: 0px;
+  
+}
+.subscribe-new-success{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  padding: 0px;
+}
+.success-text{
+  margin:0;
+  color:#fff;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(1,1,1,0.5);
+  position: relative;
+  display: none;
+}
+#subscribe-new-user{
+  display: none;
+}

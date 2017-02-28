@@ -1,0 +1,15 @@
+.text-italic {
+	font-style: italic;
+}
+
+body {
+	color: #545454;
+}
+
+p > a {
+	text-decoration: underline;
+}
+
+h5 {
+	font-weight: 100;
+}

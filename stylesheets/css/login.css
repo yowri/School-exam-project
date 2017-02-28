@@ -1,0 +1,133 @@
+body{
+	background-color: #EEEEEE;
+}
+
+.base-color
+{
+    background-color:#0277BD !important;
+}
+
+.accent-color
+{
+    background-color:#E91E63 !important;
+}
+
+.color-base
+{
+    color:#0277BD !important;
+}
+
+.marginAuto{
+	margin:auto!important;
+}
+
+.passwordRecoverd{
+	display: none;
+}
+
+.baseBorderColor{
+	border-color: #0277BD;
+}
+
+.color-accent
+{
+    color:#E91E63 !important;
+}
+
+.baseContainer{
+	margin-top: 5%;
+}
+
+.sideMargin{
+	margin-left:16px;
+	margin-right: 16px;
+}
+
+.sidePadding{
+	padding-left:16px !important;
+	padding-right:16px !important;
+}
+
+.baseLogin{
+	
+}
+
+.baseRegister{
+	display: none;
+}
+
+.LoginVlak{
+	background-color: white;
+	height: auto;
+	padding: 0px !important;
+}
+.textCenter{
+	text-align: center;
+}
+
+.loginHead{
+	width: 100%;
+	background-image: url("http://www.droid-life.com/wp-content/uploads/2014/10/bkg_07_july.jpg");
+	background-size: cover;
+	background-position: center;
+	height:100px;
+}
+
+.registerHead{
+	width: 100%;
+	background-image: url("https://newevolutiondesigns.com/images/freebies/google-material-design-wallpaper-2.jpg");
+	background-size: cover;
+	background-position: center;
+	height:100px;
+}
+
+.colorBlack{
+	color:gray;
+}
+.welkomText{
+	padding:16px;
+	color:white;
+	padding-top: 54px;
+	margin:0px;
+}
+
+.noPadding{
+	padding:0px !important;
+}
+
+.inputArea{
+	padding: 16px;
+}
+
+.floatRight{
+	float:right;
+}
+
+.marginTop{
+	margin-top:16px;
+}
+.marginBottom{
+	margin-bottom:16px;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #0277BD;
+    box-shadow: 0 1px 0 0 #0277BD;
+}
+
+.active{
+	color:#9E9E9E !important;
+}
+
+.forgotPassword{
+	display: none;
+}
+
+.forgotPasswordVlak{
+	width: 100%;
+	height:auto;
+	background-color: white;
+}
+.invisible{
+	display: none;
+}
